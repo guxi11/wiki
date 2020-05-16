@@ -12,9 +12,11 @@ module.exports = {
           { text: 'HTML', link: '/fe/html/' },
           { text: 'CSS', link: '/fe/css/' },
           { text: 'JavaScript', link: '/fe/javascript/' },
+          { text: '网络', link: '/fe/network/' },
           { text: '浏览器', link: '/fe/browser/' },
         ]
       },
+      { text: '关于', link: '/about/' },
       { text: 'GitHub', link: 'https://github.com/hbhde/wiki' },
     ],
     sidebar: {
@@ -40,7 +42,16 @@ module.exports = {
           title: 'JavaScript',
           children: [
             '',
+            'data types',
             'inherit',
+          ]
+        }
+      ],
+      '/fe/network/': [
+        {
+          title: '网络',
+          children: [
+            '',
           ]
         }
       ],
@@ -51,13 +62,6 @@ module.exports = {
             '',
           ]
         }
-      ],
-
-      // fallback
-      '/': [
-        '',
-        'contact',
-        'about'
       ]
     }
   }
