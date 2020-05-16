@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/wiki/',
   title: 'Guxi11 的知识库',
   description: '',
   themeConfig: {
